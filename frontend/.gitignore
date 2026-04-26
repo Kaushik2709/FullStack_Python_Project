@@ -1,0 +1,10 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+vite.svg
+
+# Environment files
+.env
+.env.*

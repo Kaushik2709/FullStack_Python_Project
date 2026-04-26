@@ -1,0 +1,2 @@
+DATABASE_URL=postgresql+psycopg://postgres:27092005@localhost:5432
+CORS_ORIGINS=http://localhost:5173
