@@ -63,7 +63,11 @@ copy .env.example .env
 uvicorn app.main:app --reload --port 8000
 ```
 
-Backend URL: `http://localhost:8000`
+Backend URL: `http://localhost:8000`\
+```bash 
+### Note:
+For assingment purpose database url is exposed in docker-compose.yml file, but in production consider using secrets management.
+```
 
 ## Frontend Setup
 
