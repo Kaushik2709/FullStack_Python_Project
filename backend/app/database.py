@@ -10,7 +10,6 @@ load_dotenv(dotenv_path=ENV_FILE)
 
 raw_database_url = os.getenv(
     "DATABASE_URL",
-    "postgresql+psycopg://postgres:postgres@localhost:5432/tag_tree_db",
 )
 
 # Render and many managed Postgres providers expose URLs as postgresql:// or postgres://.
